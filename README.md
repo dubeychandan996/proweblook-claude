@@ -1,5 +1,7 @@
 # ProWebLook for Claude
 
+![ProWebLook](assets/logo.png)
+
 ProWebLook helps you verify contact lists, look up phone and reputation signals, research public web and social sources, and inspect AI visibility audits from Claude. It connects to your own ProWebLook account through OAuth. This version is a private pilot package, not a published directory listing. Access requires an enabled pilot account; an installed package alone does not enable the service.
 
 ## Set up
@@ -39,4 +41,4 @@ Disconnect ProWebLook in Claude's connector settings to stop using the connector
 
 ## Package contents and license
 
-The MIT license covers this distribution wrapper: its manifest, connector declaration, documentation and skills. It does not license the private ProWebLook SaaS, provider integrations, customer data or trademarks. The unchanged ProWebLook logo in `assets/logo.png` identifies the service; no trademark rights are granted. This payload contains no application runtime, hooks, shell commands, credentials, reviewer accounts or customer files. No public package source repository or listing exists yet.
+The MIT license covers this distribution wrapper: its manifest, connector declaration, documentation and skills. It does not license the private ProWebLook SaaS, provider integrations, customer data or trademarks. The unchanged ProWebLook logo identifies the service; no trademark rights are granted. This payload contains no application runtime, hooks, shell commands, credentials, reviewer accounts or customer files. No public package source repository or listing exists yet.

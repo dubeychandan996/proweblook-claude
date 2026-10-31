@@ -9,6 +9,11 @@
 		"url": "https://proweblook.com/"
 	},
 	"homepage": "https://proweblook.com/",
+	"repository": "https://github.com/dubeychandan996/proweblook-claude",
+	"documentationUrl": "https://proweblook.com/claude",
+	"privacyPolicyUrl": "https://proweblook.com/privacy-policy",
+	"supportUrl": "https://proweblook.com/contact",
+	"termsOfServiceUrl": "https://proweblook.com/generic/terms_conditions",
 	"license": "MIT",
 	"keywords": ["verification", "whatsapp", "email", "phone", "research", "mcp"]
 }
