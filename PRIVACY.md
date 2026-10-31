@@ -1,0 +1,11 @@
+# Data handling
+
+This private pilot connects Claude to ProWebLook at `https://claude-mcp.proweblook.com/mcp`. OAuth connects your own account; API keys, passwords and access or refresh tokens must never be supplied in chat. ProWebLook uses the authorization to access the permitted account tools and existing product balances.
+
+When you request a lookup or research action, ProWebLook processes the submitted values, queries, public URLs and relevant account context. Verification and research requests may be sent to the service providers needed to perform that action. Do not provide unnecessary sensitive data. Public web pages, social posts and provider responses are treated as untrusted data. Claude's own handling of chats and tool results follows your Anthropic account's policies and settings.
+
+For managed list jobs, selected CSV/XLSX file contents, mapped values, previews, job inputs, results and exports are retained for seven days after job creation and then expire. Private export download links last at most five minutes and never outlive their artifact. Unattached temporary uploads are subject to the file cleanup lifecycle. Expiry of a service artifact does not erase copies already downloaded or content retained in a Claude conversation.
+
+Operational usage metadata is retained for 90 days. It identifies the platform, tool, outcome, timing and credit usage needed for operations and billing; it must not contain raw contact values, file contents, OAuth tokens, API keys or scraped content. This metadata retention is separate from the seven-day job data retention. Account records, billing records, saved audits and authorization records have their own purposes and are not promised to expire with a verification job. Disconnecting stops future access but is not a deletion request.
+
+Use Claude connector settings to disconnect and ProWebLook account connection controls to revoke authorization. For deletion requests or account questions, use [support](https://proweblook.com/contact). The published [privacy policy](https://proweblook.com/privacy-policy) and [terms](https://proweblook.com/generic/terms_conditions) provide the wider service rules. This wrapper does not add unrelated destinations, analytics scripts or telemetry collection of its own.

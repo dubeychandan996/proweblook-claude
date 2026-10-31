@@ -1,0 +1,8 @@
+{
+	"mcpServers": {
+		"proweblook": {
+			"type": "http",
+			"url": "https://claude-mcp.proweblook.com/mcp"
+		}
+	}
+}

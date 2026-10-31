@@ -1,0 +1,14 @@
+{
+	"name": "proweblook",
+	"displayName": "ProWebLook",
+	"version": "1.0.0",
+	"description": "Verify contact lists with previewed credit costs, research public web and social sources, and inspect AI visibility audits using your ProWebLook account.",
+	"author": {
+		"name": "ProWebLook",
+		"email": "support@proweblook.com",
+		"url": "https://proweblook.com/"
+	},
+	"homepage": "https://proweblook.com/",
+	"license": "MIT",
+	"keywords": ["verification", "whatsapp", "email", "phone", "research", "mcp"]
+}
