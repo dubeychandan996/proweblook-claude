@@ -1,6 +1,13 @@
 # Changelog
 
-## First-release scope — 1 November 2026
+## First-release scope update — 1 November 2026
+
+- Defer LinkedIn social search and post lookup in addition to the existing X (Twitter) deferral. Retain Reddit social search/post tools and their existing Reddit default.
+- Reject deferred social-tool requests before provider work or credit use. ChatGPT, the public REST API, Google results and general website extraction are unchanged.
+- Document Reddit provider limitations: returned data may be unrelated, incomplete or truncated. A successful response does not establish relevance or full post content.
+- This candidate requires the matching Claude Worker update; package preparation does not establish production deployment or directory approval. The earlier scope below is historical and is superseded by this update.
+
+## Earlier scope — X deferral, 1 November 2026
 
 - Defer X (Twitter) social search, post lookup and comments from the Claude connector. Retain Reddit and LinkedIn search/post tools and their existing Reddit default.
 - Reject excluded X social requests before provider work or credit use. ChatGPT, the public REST API, Google results and general website extraction are unchanged.
