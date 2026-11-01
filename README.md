@@ -2,7 +2,9 @@
 
 ![ProWebLook](assets/logo.png)
 
-ProWebLook helps you verify contact lists, look up phone and reputation signals, research public web and social sources, and inspect AI visibility audits from Claude. It connects to your own ProWebLook account through OAuth. This version is a private pilot package, not a published directory listing. Access requires an enabled pilot account; an installed package alone does not enable the service.
+ProWebLook helps you verify contact lists, look up phone and reputation signals, research public web, Reddit and LinkedIn sources, and inspect AI visibility audits from Claude. It connects to your own ProWebLook account through OAuth. This version is a private pilot package, not a published directory listing. Access requires an enabled pilot account; an installed package alone does not enable the service.
+
+X (Twitter) social search, post lookup and comments are deferred from this first Claude release. The Claude connector offers Reddit and LinkedIn for social search and post lookup; X requests are rejected before provider work or credit use. This restriction applies to the Claude social tools, not to Google results or public web extraction. It does not change the ChatGPT integration or public REST API.
 
 ## Set up
 

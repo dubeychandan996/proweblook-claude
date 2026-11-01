@@ -1,5 +1,11 @@
 # Changelog
 
+## First-release scope — 1 November 2026
+
+- Defer X (Twitter) social search, post lookup and comments from the Claude connector. Retain Reddit and LinkedIn search/post tools and their existing Reddit default.
+- Reject excluded X social requests before provider work or credit use. ChatGPT, the public REST API, Google results and general website extraction are unchanged.
+- This candidate requires the matching Claude Worker update; package preparation does not establish production deployment or directory approval.
+
 ## 1.0.0 — private pilot
 
 - Package ProWebLook account setup, confirmed list verification, and public research/audit workflows as three Claude skills.
